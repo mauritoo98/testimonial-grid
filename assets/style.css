@@ -1,0 +1,311 @@
+body {
+    background-color: rgb(230, 233, 233);
+}
+
+
+@media (max-width: 480px) {
+    .section_testimonials {
+        width: 80%;
+        margin: 20px auto;
+        display: grid;
+        grid-template-rows: repeat(5) 1fr;
+        gap: 20px;
+    }
+
+    img {
+        height: 40px;
+        border-radius: 50%;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .person {
+        display: grid;
+        grid-template-columns: 0.3fr 1fr;
+        align-items: center;
+    }
+
+    .testimonials__person {
+        display: grid;
+        grid-template-rows: repeat(3) 1fr;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .person__name {
+        font-size: 1.2rem;
+        color: rgb(121, 127, 141);
+        font-weight: bold;
+    }
+
+    .normal_font {
+        color: rgb(156, 156, 156);
+        padding: 5px 0px;
+    }
+
+    .person__verified {
+        grid-column-end: 2;
+        grid-column-end: 3;
+        color: rgb(170, 171, 173);
+        padding: 5px 0px 0px 0px;
+    }
+
+    .person__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 10px 0px;
+    }
+
+    .Jonathan {
+        background-color: rgb(67, 71, 82);
+    }
+
+    .Daniel {
+        background-color: rgb(136, 86, 173);
+    }
+
+    .Jeanette {
+        background-color: white;
+    }
+
+    .Patrick {
+        background-color: rgb(23, 24, 49);
+    }
+
+    .kira {
+        background-color: white;
+    }
+
+    .Daniel>.person__title {
+        color: white;
+    }
+
+    .Jonathan>.person__title {
+        color: white;
+    }
+
+    .Jeanette>.person__title {
+        color: rgb(67, 71, 82);
+    }
+
+    .Patrick>.person__title {
+        color: white;
+    }
+
+    .kira>.person__title {
+        color: rgb(67, 71, 82);
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+    .section_testimonials {
+        width: 80%;
+        margin: 20px auto;
+        display: grid;
+        grid-template-rows: repeat(5) 1fr;
+        gap: 20px;
+    }
+
+    img {
+        height: 40px;
+        border-radius: 50%;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .person {
+        display: grid;
+        grid-template-columns: 0.1fr 1fr;
+        align-items: center;
+    }
+
+    .testimonials__person {
+        display: grid;
+        grid-template-rows: repeat(3) 1fr;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .person__name {
+        font-size: 1.2rem;
+        color: rgb(121, 127, 141);
+        font-weight: bold;
+    }
+
+    .normal_font {
+        color: rgb(156, 156, 156);
+        padding: 5px 0px;
+    }
+
+    .person__verified {
+        grid-column-end: 2;
+        grid-column-end: 3;
+        color: rgb(170, 171, 173);
+        padding: 5px 0px 0px 0px;
+    }
+
+    .person__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 10px 0px;
+    }
+
+    .Jonathan {
+        background-color: rgb(67, 71, 82);
+    }
+
+    .Daniel {
+        background-color: rgb(136, 86, 173);
+    }
+
+    .Jeanette {
+        background-color: white;
+    }
+
+    .Patrick {
+        background-color: rgb(23, 24, 49);
+    }
+
+    .kira {
+        background-color: white;
+    }
+
+    .Daniel>.person__title {
+        color: white;
+    }
+
+    .Jonathan>.person__title {
+        color: white;
+    }
+
+    .Jeanette>.person__title {
+        color: rgb(67, 71, 82);
+    }
+
+    .Patrick>.person__title {
+        color: white;
+    }
+
+    .kira>.person__title {
+        color: rgb(67, 71, 82);
+    }
+}
+
+@media(min-width: 768px) {
+    .section_testimonials {
+        width: 90%;
+        margin: 10px auto;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    img {
+        height: 40px;
+        border-radius: 50%;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .person {
+        display: grid;
+        grid-template-columns: 0.1fr 1fr;
+        align-items: center;
+    }
+
+    .testimonials__person {
+        display: grid;
+        grid-template-rows: repeat(3) 1fr;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .person__data {
+        padding: 0px 10px;
+    }
+
+    .person__name {
+        font-size: 1.2rem;
+        color: rgb(121, 127, 141);
+        font-weight: bold;
+    }
+
+    .normal_font {
+        color: rgb(156, 156, 156);
+        padding: 5px 0px;
+    }
+
+    .person__verified {
+        grid-column-end: 2;
+        grid-column-end: 3;
+        color: rgb(170, 171, 173);
+        padding: 5px 0px 0px 0px;
+    }
+
+    .person__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 10px 0px;
+    }
+
+    .Jonathan {
+        background-color: rgb(67, 71, 82);
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .Daniel {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: rgb(136, 86, 173);
+    }
+
+    .Jeanette {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: white;
+    }
+
+    .Patrick {
+        background-color: rgb(23, 24, 49);
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .kira {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: white;
+    }
+
+    .Daniel>.person__title {
+        color: white;
+    }
+
+    .Jonathan>.person__title {
+        color: white;
+    }
+
+    .Jeanette>.person__title {
+        color: rgb(67, 71, 82);
+    }
+
+    .Patrick>.person__title {
+        color: white;
+    }
+
+    .kira>.person__title {
+        color: rgb(67, 71, 82);
+    }
+}
